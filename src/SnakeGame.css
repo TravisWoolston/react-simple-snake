@@ -1,13 +1,46 @@
+/* .di {
+	width: 0;
+	height: 0;
+	left: 0;
+	top: 0;
+	background: gray;
+} */
+
 #GameBoard {
 	position: relative;
 	margin: auto;
-	border-style: solid;
+	/* border-style: solid; */
+	background-color:rgb(0, 140, 255);
+	z-index:-5;
 }
-
+ #GameBoard .grid {
+	position: absolute;
+	background-color: red;
+	/* border: 8px solid rgb(255, 255, 255, .5); */
+	
+	z-index: 20;
+	
+}
+#GameBoard .assist {
+	/* background: rgba(255, 255, 255, 0.534); */
+	position: absolute;
+	border-radius: 1px;
+	/* border: 1px solid rgb(255, 255, 255); */
+	box-shadow: 1px 2px 5px rgba(255, 255, 255, 0.911);
+}
 #GameBoard .Block {
 	position: absolute;
+	border-radius: 1px;
+	/* border: 1px solid rgb(255, 255, 255); */
+	box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.911);
 }
 
+#GameBoard .aiBlock {
+	position: absolute;
+	border-radius: 1px;
+	/* border: 1px solid rgb(255, 255, 255); */
+	box-shadow: 2px 2px 5px rgba(7, 7, 168, 0.911);
+}
 #GameBoard #GameOver {
 	text-align: center;
 	height: 100%;

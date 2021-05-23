@@ -22,7 +22,6 @@
     "url": "https://github.com/MaelDrapier/react-simple-snake.git"
   },
   "homepage": "https://maeldrapier.github.io/react-simple-snake",
-  "dependencies": {},
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -56,5 +55,10 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-node-externals": "^2.5.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.7",
+    "react-tween-state": "^0.1.5"
   }
 }

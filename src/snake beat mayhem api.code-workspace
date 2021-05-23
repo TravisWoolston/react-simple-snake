@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\jonny spotify api"
+		},
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\Assessments\\frontend-assessment"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jonny spotify api"
+	}
+}
